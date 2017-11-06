@@ -55,6 +55,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Average_Tasks__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Tasks</label>
+        <summaryForeignKey>Task__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
     <fields>
         <fullName>Start_Date__c</fullName>
         <externalId>false</externalId>
