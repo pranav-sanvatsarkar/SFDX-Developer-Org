@@ -57,6 +57,19 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>Additional_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>of_tasks__c +  Average_Tasks__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Additional Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Average_Tasks__c</fullName>
         <externalId>false</externalId>
         <label>Average Tasks</label>
