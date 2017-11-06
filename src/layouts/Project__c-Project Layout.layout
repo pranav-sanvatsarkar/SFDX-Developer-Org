@@ -17,11 +17,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Average_Tasks__c</field>
+                <field>Count_of_tasks__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Additional_Count__c</field>
+                <field>Middle_date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>End_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
